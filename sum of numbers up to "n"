@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	// girilen n sayısına kadar olan sayılar toplamı
+	int girilen;
+	int toplam = 0;
+	
+    std::cout << "sayi giriniz : ";
+	cin >>  girilen;
+	toplam = (girilen * (girilen + 1)) / 2;
+	cout << toplam;
+}
