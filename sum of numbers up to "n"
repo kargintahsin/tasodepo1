@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+         //C++
 	// girilen n sayısına kadar olan sayılar toplamı
 	int girilen;
 	int toplam = 0;
